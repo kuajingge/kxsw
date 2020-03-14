@@ -21,7 +21,15 @@
 >- 安卓端：https://github.com/2dust/v2rayNG/releases  
 > -下载最新版本的APK安装包。  
 
->> IOS 建议使用shadowrocket和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID再打开App Store才能找到这两个软件，而且这两个软件收费, 也可以看我的视频：[免费分享美区香港Apple ID(已购买小火箭shadowrocket)](https://youtu.be/NKqto1mePWE)
+>> IOS（苹果手机iphone或ipad）建议使用小火箭shadowrocket和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID，打开App Store才能找到这两个软件，而且这两个软件收费;
+>> 如果希望不花钱也可以安装小火箭，请看我的视频：[免费分享美区香港Apple ID(已购买小火箭shadowrocket)](https://youtu.be/NKqto1mePWE)
+
+#### 小火箭shadowrocket和quantumult配置文件规则：
+>- 最完善的小火箭翻墙规则：https://github.com/h2y/Shadowrocket-ADBlock-Rules  
+>- 各种客户端配置规则：https://github.com/lhie1/Rules  
+>> 以上规则足够使用；  
+>> 如果youtube出现黑屏 请点进去所使用的规则列表 搜索youtube 删除 "ads.youtube.com"这条规则.
+>> 如果不会添加规则，请看我的视频：[小火箭使用教程](https://youtu.be/AacJ9lNunrM)
 
 ## 自己搭建代理节点
 自己搭建代理节点，需要租用一台vps，这里我以谷歌云为例，因为谷歌云可以免费申请300美金的赠金，并且有一年的有效期。假如赠金用光或是有效期到期，还可以申请新的账号，再获取300美金赠金，并可转移至老账户作为付款账户，如此可以不用修改已经在用的节点而一直免费使用，爽吧！
