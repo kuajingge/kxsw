@@ -31,7 +31,7 @@
 ### v2ray一键安装脚本：
     bash <(curl -s -L https://git.io/v2ray.sh)
 
-备注：安装完成后，自动启用bbr加速，根目录下输入：`v2ray` 即可管理 V2Ray
+> 备注：安装完成后，自动启用bbr加速，根目录下输入：`v2ray` 即可管理 V2Ray
 
 ### 快速管理
 #### 查看 V2Ray 配置信息：
