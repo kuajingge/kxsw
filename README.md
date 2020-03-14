@@ -21,7 +21,7 @@
 >- 安卓端：https://github.com/2dust/v2rayNG/releases  
 > -下载最新版本的APK安装包。  
 
->> IOS（苹果手机iphone或ipad）建议使用小火箭shadowrocket和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID，打开App Store才能找到这两个软件，而且这两个软件收费;
+>> IOS（苹果手机iphone或ipad）建议使用小火箭shadowrocket和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID，打开App Store才能找到这两个软件，而且这两个软件收费;  
 >> 如果希望不花钱也可以安装小火箭，请看我的视频：[免费分享美区香港Apple ID(已购买小火箭shadowrocket)](https://youtu.be/NKqto1mePWE)
 
 #### 小火箭shadowrocket和quantumult配置文件规则：
@@ -32,7 +32,7 @@
 >> 如果不会添加规则，请看我的视频：[小火箭使用教程](https://youtu.be/AacJ9lNunrM)  
 
 ## 自己搭建代理节点
-自己搭建代理节点，需要租用一台vps，视频教程里我会以谷歌云vps为例，因为谷歌云可以免费申请300美金的赠金，并且有一年的有效期。假如赠金用光或是有效期到期，还可以申请新的账号，再获取300美金赠金，并可转移至老账户作为付款账户，如此可以不用修改已经在用的节点而一直免费使用，爽吧！
+自己搭建代理节点，需要租用一台vps，视频教程里我会以谷歌云vps为例，因为谷歌云可以免费申请300美金的赠金，并且有一年的有效期。假如赠金用光或是有效期到期，还可以申请新的账号，再获取300美金赠金，并可转移至老账户作为付款账户，如此可以不用修改已经在用的节点而一直免费使用，爽吧！  
 
 ### 一，ssr节点搭建步骤
 #### 系统要求：
@@ -45,7 +45,7 @@
 >- 如果不是, 说明不在根目录，请输入：  
 
     sudo su
->- 输入上面代码回车后可能会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。
+>- 输入上面代码回车后可能会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。  
 
 ##### ssr一键安装脚本（逗比）：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
