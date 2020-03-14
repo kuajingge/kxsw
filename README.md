@@ -77,7 +77,7 @@
 
     sudo -i
 
-##### v2ray一键安装脚本：
+##### v2ray一键安装脚本（233大佬)：
     bash <(curl -s -L https://git.io/v2ray.sh)
 
 >- 如果提示 curl: command not found ，那是因为你的VPS没装Curl;  
