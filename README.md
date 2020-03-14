@@ -1,4 +1,4 @@
-## ssr安装
+## 一，ssr安装
 ### 进入root目录：
     sudo su
 ### ssr一键安装脚本：
@@ -15,7 +15,7 @@
 #### 3:查看bbr状态：
     bash bbr.sh status
 
-## v2ray安装
+## 二，v2ray安装
 
 ### 进入root目录：
     sudo -i
