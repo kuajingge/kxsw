@@ -33,28 +33,26 @@
 #### 安装：
 **简单的来说，如果你什么都不懂，那么你直接一路回车就可以了！**
 ##### 进入root目录：
-`首先确认命令符框最前面是不是root@xxxxx`
-`如果不是, 说明不在根目录，请输入：`
+> 首先确认命令符框最前面是不是root@xxxxx  
+> 如果不是, 说明不在根目录，请输入：  
 
     sudo su
-`输入上面代码回车后可能会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。`
+> 输入上面代码回车后可能会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。
 
 ##### ssr一键安装脚本（逗比）：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
-`运行后会提示你输入数字来选择要做什么。按提示操作即可，`
-`如果都完成 出现黑屏 请滑动一下你的鼠标滚轮！！！`
+> 运行后会提示你输入数字来选择要做什么。按提示操作即可;  
+> 如果都完成 出现黑屏 请滑动一下你的鼠标滚轮！！！  
 #### 使用管理：
-`运行脚本：`
+> 运行脚本：  
 
     bash ssr.sh
-`输入对应的数字来执行相应的命令。`
+> 输入对应的数字来执行相应的命令。  
 #### 如果需要网络加速，可以安装BBR:
-`同样，需要在根目录操作：  
-如果没有安装wget GCP服务器，输入安装：`
+> 同样，需要在根目录操作：  
+> 如果没有安装wget GCP服务器，输入安装：  
 
-    yum -y install wget
-
-
+    >> yum -y install wget
 
 ##### bbr加速一键安装脚本：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
