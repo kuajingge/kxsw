@@ -57,12 +57,9 @@
 ##### bbr加速一键安装脚本：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 ##### 使用管理：
-###### 1:启动bbr:
-    bash bbr.sh start
-###### 2:关闭bbr:
-    bash bbr.sh stop
-###### 3:查看bbr状态：
-    bash bbr.sh status
+>- 1:启动bbr:`bash bbr.sh start`
+>- 2:关闭bbr:`bash bbr.sh stop`
+>- 3:查看bbr状态：`bash bbr.sh status`
 
 
 ### 二，v2ray节点搭建步骤
@@ -85,7 +82,8 @@
 >- ubuntu/debian系统安装Curl,输入: `apt-get update -y && apt-get install curl -y`  
 >- centos系统安装Curl,输入: `yum update -y && yum install curl -y`  
 >- 安装好curl之后就能安装脚本了!  
->- 备注：安装完成后，自动启用bbr加速，根目录下输入：`v2ray` 即可管理 V2Ray;  
+>- 安装完成后，自动启用bbr加速;  
+>- 根目录下输入：`v2ray` 即可管理 V2Ray;  
 >- 如果提示你的系统不支持此脚本，那么请尝试更换系统.  
 
 #### 快速管理
