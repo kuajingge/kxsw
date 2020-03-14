@@ -1,2 +1,1 @@
-# ssr-v2ray-
-脚本管理
+# ssr-v2ray
