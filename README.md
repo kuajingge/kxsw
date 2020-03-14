@@ -21,7 +21,7 @@
 下载最新版本的dmg安装包；  
 > 安卓端：https://github.com/shadowsocksrr/shadowsocksr-android/releases
 下载最上面的版本 APK安装包（一般Android手机浏览器会自动下安装）。  
-> IOS 建议使用shadowrockt 和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID再打开App Store才能找到这两个软件，而且这两个软件收费 但建议购买 如何充值非大陆地区AppleID 可以去我视频里找教程
+>> IOS 建议使用shadowrockt 和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID再打开App Store才能找到这两个软件，而且这两个软件收费 但建议购买 如何充值非大陆地区AppleID 可以去我视频里找教程
 
 ## 二，v2ray安装
 
