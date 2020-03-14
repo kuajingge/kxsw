@@ -1,27 +1,54 @@
-## 一，ssr安装
-### 进入root目录：
-	sudo su
-### ssr一键安装脚本：
+# 科学上网完整攻略
+## 客观条件要求：
+### 1，代理节点：
+> 免费节点分享：http://bit.ly/3cFPrfV  
+> 免费节点订阅：http://bit.ly/2xa7o67  
+
+### 2，代理客户端：
+#### ssr客户端免费下载：
+> PC端：https://github.com/shadowsocksrr/shadowsocksr-csharp/releases  
+> 下载最新版本的zip压缩包；  
+> MAC端：https://github.com/qinyuhang/ShadowsocksX-NG-R/releases  
+> 下载最新版本的dmg安装包；  
+> 安卓端：https://github.com/shadowsocksrr/shadowsocksr-android/releases  
+> 下载最上面的版本 APK安装包（一般Android手机浏览器会自动下安装）。  
+
+#### v2ray客户端免费下载：
+> PC端和MAC端：https://github.com/v2ray/v2ray-core/releases  
+> PC端下载最新版本的zip压缩包；MAC端下载最新的macos版本zip压缩包后解压；  
+> MAC端其他版本v2rayU：https://github.com/yanue/V2rayU/releases  
+> 下载最新版本的dmg安装包;  
+> 安卓端：https://github.com/2dust/v2rayNG/releases  
+> 下载最新版本的APK安装包。  
+
+>> IOS 建议使用shadowrocket和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID再打开App Store才能找到这两个软件，而且这两个软件收费, 也可以看我的视频：[免费分享美区香港Apple ID(已购买小火箭shadowrocket)](https://youtu.be/NKqto1mePWE)
+
+## 自己搭建代理节点
+自己搭建代理节点，需要租用一台vps，这里我以谷歌云为例，因为谷歌云可以免费申请300美金的赠金，并且有一年的有效期。假如赠金用光或是有效期到期，还可以申请新的账号，再获取300美金赠金，并可转移至老账户作为付款账户，如此可以不用修改已经在用的节点而一直免费使用，爽吧！
+
+### ssr节点搭建步骤
+#### 系统要求：
+> `CentOS 6+ / Debian 6+ / Ubuntu 14.04 +`  
+> `推荐使用`Debian 8+  
+#### 安装：
+##### 进入root目录：
+首先确认命令符框最前面是不是root@xxxxx  
+如果不是请输入：
+    sudo su
+##### ssr一键安装脚本：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
-### 使用管理：
+#### 使用管理：
     bash ssr.sh
-### bbr加速一键安装脚本：
+#### bbr加速一键安装脚本：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
-### 使用管理：
-#### 1:启动bbr:
+#### 使用管理：
+##### 1:启动bbr:
     bash bbr.sh start
-#### 2:关闭bbr:
+##### 2:关闭bbr:
     bash bbr.sh stop
-#### 3:查看bbr状态：
+##### 3:查看bbr状态：
     bash bbr.sh status
-### ssr客户端下载：
-> PC端：https://github.com/shadowsocksrr/shadowsocksr-csharp/releases
-下载最新版本的zip压缩包；  
-> MAC端：https://github.com/qinyuhang/ShadowsocksX-NG-R/releases
-下载最新版本的dmg安装包；  
-> 安卓端：https://github.com/shadowsocksrr/shadowsocksr-android/releases
-下载最上面的版本 APK安装包（一般Android手机浏览器会自动下安装）。  
->> IOS 建议使用shadowrockt 和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID再打开App Store才能找到这两个软件，而且这两个软件收费 但建议购买 如何充值非大陆地区AppleID 可以去我视频里找教程
+
 
 ## 二，v2ray安装
 
