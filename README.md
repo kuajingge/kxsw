@@ -25,9 +25,11 @@
 >> IOS（苹果手机iphone或ipad）建议使用小火箭shadowrocket和quantumult，但因为大陆商店统统下架，所以只能使用非大陆地区的AppleID，打开App Store才能找到这两个软件，而且这两个软件收费;  
 >> 如果希望不花钱也可以安装小火箭，请看我的视频：[免费分享美区香港Apple ID(已购买小火箭shadowrocket)](https://youtu.be/NKqto1mePWE)
 
-#### 小火箭shadowrocket和quantumult配置文件规则：
+#### 小火箭shadowrocket ipa安装包下载：
+>- 小火箭爱思助手ipa安装包：http://bit.ly/38r7VNX
+#### 小火箭和quantumult配置文件规则：
 >- 最完善的小火箭翻墙规则：https://github.com/h2y/Shadowrocket-ADBlock-Rules  
->- 各种客户端配置规则：https://github.com/lhie1/Rules  
+>- quantumult等客户端配置规则：https://github.com/lhie1/Rules  
 >> 以上规则足够使用；  
 >> 如果youtube出现黑屏 请点进去所使用的规则列表 搜索youtube 删除 "ads.youtube.com"这条规则.  
 >> 如果不会添加规则，请看我的视频：[小火箭使用教程](https://youtu.be/AacJ9lNunrM)  
