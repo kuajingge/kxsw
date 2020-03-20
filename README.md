@@ -50,10 +50,15 @@
     sudo su
 >- 输入上面代码回车后可能会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。  
 
-##### ssr一键安装脚本（逗比）：
+##### ssr一键安装脚本（逗比-单用户）：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
->- 运行后会提示你输入数字来选择要做什么。按提示操作即可;  
->- 如果全部完成，出现黑屏，请滑动一下你的鼠标滚轮！！！  
+>- 单用户脚本：`ssr.sh` 则是单服务器单用户脚本，使用的是SSR服务端的单用户配置方式，即使实现了多端口，但是还算不上多用户，不支持每个用户(端口)不同的加密方式/协议/混淆等，并且无法管理流量使用。
+##### ssr一键安装脚本（逗比-多用户）：
+    wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
+>- 多用户脚本：`ssrmu.sh` 脚本是单服务器多用户脚本，使用的是SSR服务端的`MudbJSON`模式，可以给每个用户(端口)设置不同的加密方式/协议/混淆/限制速度/设备数限制/可用总流量等功能。即实现单服务器多用户流量管理等功能。  
+>>- 根据你的需求选择，比如你仅仅是 一个或两个人使用，并且不需要流量管理功能，那么选择 `ssr.sh` 好了。而如果很多人使用，并且都需要限制流量来管理，那你适合使用 `ssrmu.sh` , 所以自己看着选，多试试（两个脚本不能共存）！  
+>>- 运行后会提示你输入数字来选择要做什么。按提示操作即可;  
+>>- 如果全部完成，出现黑屏，请滑动一下你的鼠标滚轮！！！  
 #### 使用管理：
 >- 运行脚本：  
 
