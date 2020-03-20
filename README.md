@@ -73,7 +73,7 @@
 
     yum -y install wget
 
-##### bbr加速一键安装脚本：
+##### bbr加速一键安装脚本(其实以上ssr两个脚本14项“其他”里面已经可以安装）：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/bbr.sh && chmod +x bbr.sh && bash bbr.sh
 >- 注意：在Debian系统中，删除旧内核时，会提示你是否终止删除内核的行为([点击打开图样](https://user-images.githubusercontent.com/43647204/59249448-653c3a00-8c57-11e9-834c-3d6b1130ca9e.png))，这个需要你选择 <No> (键盘方向键:选择，回车键:确认)。
 
