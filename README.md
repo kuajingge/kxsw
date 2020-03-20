@@ -1,4 +1,12 @@
 # KX上网完整攻略
+## 欢迎加入我的电报圈子
+>- 点击加入：https://bit.ly/2wqOQ1B  
+>- 电报MTproxy一键脚本(逗比):  
+
+    wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/mtproxy.sh && chmod +x mtproxy.sh && bash mtproxy.sh
+>>- 管理脚本：
+
+    ./mtproxy.sh
 ## 客观条件要求：
 ### 1，代理节点：
 >- 免费节点分享：http://bit.ly/3cFPrfV  
