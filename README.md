@@ -57,12 +57,12 @@
 >- 输入上面代码回车后可能会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。  
 
 ##### ssr一键安装脚本（逗比-单用户）：
-##### 如果提示 curl: command not found，那是因为你的 VPS 没装 Curl,输入以下命令安装：
-    apt-get update -y && apt-get install curl -y    ##Ubuntu/Debian 系统安装 Curl 方法
-    yum update -y && yum install curl -y            ##Centos 系统安装 Curl 方法
-###### SSR脚本代码：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 >- 单用户脚本：`ssr.sh` 则是单服务器单用户脚本，使用的是SSR服务端的单用户配置方式，即使实现了多端口，但是还算不上多用户，不支持每个用户(端口)不同的加密方式/协议/混淆等，并且无法管理流量使用。
+>- 如果提示 curl: command not found ，那是因为你的VPS没装Curl;  
+>- ubuntu/debian系统安装Curl,输入: `apt-get update -y && apt-get install curl -y`  
+>- centos系统安装Curl,输入: `yum update -y && yum install curl -y`  
+>- 安装好curl之后就能安装脚本了! 
 ##### ssr一键安装脚本（逗比-多用户）：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/ssrmu.sh && chmod +x ssrmu.sh && bash ssrmu.sh
 >- 多用户脚本：`ssrmu.sh` 脚本是单服务器多用户脚本，使用的是SSR服务端的`MudbJSON`模式，可以给每个用户(端口)设置不同的加密方式/协议/混淆/限制速度/设备数限制/可用总流量等功能。即实现单服务器多用户流量管理等功能。  
