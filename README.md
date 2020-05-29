@@ -57,6 +57,10 @@
 >- 输入上面代码回车后可能会提示你输入当前用户的密码，输入并回车后，没有报错就继续下面的步骤安装ShadowsocksR。  
 
 ##### ssr一键安装脚本（逗比-单用户）：
+##### 如果提示 curl: command not found，那是因为你的 VPS 没装 Curl,输入以下命令安装：
+    apt-get update -y && apt-get install curl -y    ##Ubuntu/Debian 系统安装 Curl 方法
+    yum update -y && yum install curl -y            ##Centos 系统安装 Curl 方法
+###### SSR脚本代码：
     wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh && chmod +x ssr.sh && bash ssr.sh
 >- 单用户脚本：`ssr.sh` 则是单服务器单用户脚本，使用的是SSR服务端的单用户配置方式，即使实现了多端口，但是还算不上多用户，不支持每个用户(端口)不同的加密方式/协议/混淆等，并且无法管理流量使用。
 ##### ssr一键安装脚本（逗比-多用户）：
