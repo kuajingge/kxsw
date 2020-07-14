@@ -34,6 +34,9 @@
 >> 如果youtube出现黑屏 请点进去所使用的规则列表 搜索youtube 删除 "ads.youtube.com"这条规则.  
 >> 如果不会添加规则，请看我的视频：[小火箭使用教程](https://youtu.be/AacJ9lNunrM)  
 
+#### 如何还是找不到你想要的客户端，这里应有尽有：
+>- 各种客户端，应有尽有（免fq）：https://ausers.github.io/
+
 ## 我在用的机场
 >- 点击这个链接注册：http://bit.ly/2Tp6H1G  
 >- 测速视频：https://bit.ly/2vZdkPl
