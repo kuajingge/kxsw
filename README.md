@@ -38,7 +38,7 @@
 >- 各种客户端，应有尽有（免fq）：https://ausers.github.io/
 
 ## 我在用的机场
->- 点击这个链接注册：https://bit.ly/2Oeyt0K  
+>- 点击这个链接注册：https://bit.ly/suying222  
 >- 测速视频：https://bit.ly/2vZdkPl
 >> 这个机场一直在用，高速稳定，性价比还超高，关键的是还带奈飞节点，简直不要太爽；
 
