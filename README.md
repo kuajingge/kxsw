@@ -136,7 +136,7 @@
 >- 卸载 V2Ray：`v2ray uninstall`
 
 ## 欢迎加入我的电报圈子
-点击加入：https://bit.ly/2wqOQ1B  
+点击加入：https://bit.ly/nanguakeji  
 #### Telegram客户端免费下载：
 >- PC(desktop)端：https://desktop.telegram.org/  
 >- 安卓：https://play.google.com/store/apps/details?id=org.telegram.messenger  
