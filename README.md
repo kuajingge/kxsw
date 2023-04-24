@@ -38,7 +38,7 @@
 >- 各种客户端，应有尽有（免fq）：https://ausers.github.io/
 
 ## 我在用的机场
->- 点击这个链接注册（可月付，便宜，速度快，本人长期在用）：https://bit.ly/suying222
+>- 点击这个链接注册（可月付，便宜，速度快，本人长期在用）：https://bit.ly/gogocloud
 >- 点击这个链接注册（仅可年付，速度快，稳定，本人长期在用）：https://bit.ly/iplcvipjc
 >- 测速视频：https://bit.ly/2vZdkPl
 >> 这2个机场一直在用，高速稳定，关键的是还带奈飞节点，简直不要太爽；
